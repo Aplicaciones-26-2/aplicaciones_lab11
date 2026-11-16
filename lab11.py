@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 st.set_page_config(layout="wide")
-st.title("KORA | CLientes")
+st.title("KORA | Clientes")
 st.caption("Clientes registrados de agosto 2025 a septiembre 2026\n\n"
            "Valores en COP")
 
