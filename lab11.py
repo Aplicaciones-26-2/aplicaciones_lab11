@@ -5,8 +5,6 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 st.title("KORA | CLientes")
 st.caption("Clientes registrados de agosto 2025 a septiembre 2026\n\n"
-           "Pedidos hasta el 31/10/2026\n\n"
-           "Fecha de corte: 31/10/2026\n\n"
            "Valores en COP")
 
 clientes = pd.read_csv("KORA_clientes.csv", parse_dates=["fecha_registro"])
